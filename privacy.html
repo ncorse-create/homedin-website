@@ -32,7 +32,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="index.html" aria-label="HomedIn home"><span class="appicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11.2L12 4l8.5 7.2"/><path d="M5.8 9.4V18a2.5 2.5 0 0 0 2.5 2.5h7.4a2.5 2.5 0 0 0 2.5-2.5V9.4"/><path d="M9 14l2.2 2.2L15.2 12"/></svg></span>HomedIn</a>
+    <a class="brand" href="index.html" aria-label="HomedIn home"><span class="appicon"><img src="assets/img/appicon.svg" alt="" width="36" height="36" aria-hidden="true"></span>HomedIn</a>
     <ul class="nav-links" id="nav-links"><li><a href="index.html#features">Features</a></li><li><a href="index.html#ai">Ask AI</a></li><li><a href="index.html#reports">Reports</a></li><li><a href="realtors.html">Realtors</a></li><li><a href="index.html#pricing">Pricing</a></li><li><a href="index.html#faq">FAQ</a></li></ul>
     <a class="btn sm" href="https://apps.apple.com/us/app/homedin/id6762814321" data-appstore>Download</a>
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
@@ -94,7 +94,9 @@
 </ul>
 <p>Notes are deleted after <strong>90 days</strong>. Counters for a device that hasn't used HomedIn AI are deleted after <strong>13 months</strong>.</p>
 <h3>Permissions</h3>
-<p>HomedIn asks for the <strong>Camera</strong> and <strong>Photos</strong> only when you choose to take or attach a photo, and for <strong>notifications</strong> for your reminders. It doesn't ask for your device's location. You can change these in Settings on your device at any time.</p></section>
+<p>HomedIn asks for the <strong>Camera</strong> and <strong>Photos</strong> only when you choose to take or attach a photo, and for <strong>notifications</strong> for your reminders. It doesn't ask for your device's location. You can change these in Settings on your device at any time.</p>
+<h3>Weather forecasts</h3>
+<p>To show a local forecast, HomedIn sends your home's <strong>ZIP code</strong> to <strong>Apple Weather</strong> (WeatherKit) about once a day. Only the <strong>ZIP centroid</strong> (the geographic center of that ZIP code) is used — not your street address, precise location or GPS. HomedIn doesn't ask for location permission. Forecast data comes from Apple under <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a> and Apple Weather terms.</p></section>
 <section id="ai" aria-labelledby="ai-h"><h2 id="ai-h">3. HomedIn AI</h2>
 <p>HomedIn AI lets you ask questions about your home, get photo cost estimates and remodel ideas, check a quote, identify an appliance from its label, find the right kind of pro, and receive AI home scans and seasonal and yearly reports. It's powered by <strong>Claude</strong>, an AI model made by <strong>Anthropic</strong>.</p>
 <div class="callout iris">
@@ -133,7 +135,7 @@
 <p>HomedIn is for US homeowners, and HomedIn AI is available in the United States at launch.</p></section>
 <section id="others" aria-labelledby="others-h"><h2 id="others-h">4. Other companies involved</h2>
 <ul>
-<li><strong>Apple</strong> provides iCloud sync, App Store purchases and Apple Maps for contractor search. Purchases are processed by Apple; we never see your payment card or billing details. See <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>.</li>
+<li><strong>Apple</strong> provides iCloud sync, App Store purchases, Apple Maps for contractor search, and <strong>Apple Weather</strong> (WeatherKit) for forecasts from your home's ZIP code, as described in section 2. Purchases are processed by Apple; we never see your payment card or billing details. See <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>.</li>
 <li><strong>Anthropic</strong> provides the Claude AI model used by HomedIn AI, as described in section 3.</li>
 <li><strong>Cloudflare</strong> hosts HomedIn's server and processes requests in transit to deliver them and protect the service. See <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare's Privacy Policy</a>.</li>
 </ul>
@@ -159,6 +161,11 @@
 <td>Photos, AI chats and saved AI reports</td>
 <td>Your device only</td>
 <td>Until you delete them</td>
+</tr>
+<tr>
+<td>Weather forecasts</td>
+<td>Fetched from Apple Weather; cached on your device</td>
+<td>Refreshed about once a day</td>
 </tr>
 <tr>
 <td>AI request content (messages, photos, home facts)</td>
@@ -218,7 +225,7 @@ Support page: <a href="support.html">HomedIn Support</a></p>
   <div class="wrap">
     <div class="foot">
       <div>
-        <a class="brand" href="index.html"><span class="appicon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11.2L12 4l8.5 7.2"/><path d="M5.8 9.4V18a2.5 2.5 0 0 0 2.5 2.5h7.4a2.5 2.5 0 0 0 2.5-2.5V9.4"/><path d="M9 14l2.2 2.2L15.2 12"/></svg></span>HomedIn</a>
+        <a class="brand" href="index.html"><span class="appicon"><img src="assets/img/appicon.svg" alt="" width="36" height="36" aria-hidden="true"></span>HomedIn</a>
         <p>Care for the home you’re in. A calm, personal maintenance plan and a lifelong record for your home, on iPhone and iPad.</p>
         <div style="margin-top:20px"><a class="badge-link " href="https://apps.apple.com/us/app/homedin/id6762814321" data-appstore aria-label="Download HomedIn on the App Store"><img src="assets/img/app-store-badge.svg" alt="Download on the App Store" width="168" height="56"></a></div>
       </div>
@@ -227,7 +234,7 @@ Support page: <a href="support.html">HomedIn Support</a></p>
       <div><h5>For</h5><ul>
         <li><a href="index.html#who">Homeowners</a></li><li><a href="index.html#who">Home buyers</a></li><li><a href="realtors.html">Realtors</a></li></ul></div>
       <div><h5>Company</h5><ul>
-        <li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">Terms of Use (Apple EULA)</a></li><li><a href="index.html#faq">FAQ</a></li></ul></div>
+        <li><a href="support.html">Support</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="index.html#faq">FAQ</a></li></ul></div>
     </div>
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> Persue Apps LLC. HomedIn is not affiliated with Apple or Anthropic.</span>

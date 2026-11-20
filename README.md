@@ -15,7 +15,9 @@ Static HTML, CSS and vanilla JS. No build step and no third-party scripts. Plus 
 | `realtors.html` | Landing page for real estate agents |
 | `support.html` | Support page. The form opens the visitor's email app (`mailto:`), with no backend |
 | `privacy.html` | Privacy Policy (draft, see below) |
+| `terms.html` | Terms of Use (draft, see below) |
 | `PRIVACY-POLICY.md` | Plain Markdown copy of the Privacy Policy |
+| `TERMS.md` | Plain Markdown copy of the Terms of Use |
 
 ## Before launch: placeholders to replace
 
@@ -28,6 +30,7 @@ Search the HTML for `data-placeholder` and `TODO(Noah)`.
 - **Realtor program** (gift codes, co-branding, early-access list) is planned, not built yet.
 - **Testimonials**: a hidden `#testimonials` section is ready. Only add real quotes you have permission to use.
 - **Privacy Policy** is a draft and not legal advice. Have it reviewed before publishing, and keep `privacy.html`, `PRIVACY-POLICY.md`, the in-app consent text, the App Privacy answers and `PrivacyInfo.xcprivacy` saying the same thing.
+- **Terms of Use** is a draft and not legal advice. Have it reviewed before publishing, and keep `terms.html` and `TERMS.md` in sync with the in-app HomedIn+ paywall and Apple's Licensed Application End User License Agreement.
 
 ## Local preview
 

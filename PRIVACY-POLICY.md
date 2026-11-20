@@ -47,6 +47,10 @@ Notes are deleted after **90 days**. Counters for a device that hasn't used Home
 
 HomedIn asks for the **Camera** and **Photos** only when you choose to take or attach a photo, and for **notifications** for your reminders. It doesn't ask for your device's location. You can change these in Settings on your device at any time.
 
+### Weather forecasts
+
+To show a local forecast, HomedIn sends your home's **ZIP code** to **Apple Weather** (WeatherKit) about once a day. Only the **ZIP centroid** (the geographic center of that ZIP code) is used — not your street address, precise location or GPS. HomedIn doesn't ask for location permission. Forecast data comes from Apple under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) and Apple Weather terms.
+
 ## 3. HomedIn AI
 
 HomedIn AI lets you ask questions about your home, get photo cost estimates and remodel ideas, check a quote, identify an appliance from its label, find the right kind of pro, and receive AI home scans and seasonal and yearly reports. It's powered by **Claude**, an AI model made by **Anthropic**.
@@ -102,7 +106,7 @@ HomedIn is for US homeowners, and HomedIn AI is available in the United States a
 
 ## 4. Other companies involved
 
-- **Apple** provides iCloud sync, App Store purchases and Apple Maps for contractor search. Purchases are processed by Apple; we never see your payment card or billing details. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+- **Apple** provides iCloud sync, App Store purchases, Apple Maps for contractor search, and **Apple Weather** (WeatherKit) for forecasts from your home's ZIP code, as described in section 2. Purchases are processed by Apple; we never see your payment card or billing details. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 - **Anthropic** provides the Claude AI model used by HomedIn AI, as described in section 3.
 - **Cloudflare** hosts HomedIn's server and processes requests in transit to deliver them and protect the service. See [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
@@ -118,6 +122,7 @@ If you email us, including through the support page, which opens your own email 
 |---|---|---|
 | Home data, tasks, notes, receipts, documents | Your device and your private iCloud | Until you delete it |
 | Photos, AI chats and saved AI reports | Your device only | Until you delete them |
+| Weather forecasts | Fetched from Apple Weather; cached on your device | Refreshed about once a day |
 | AI request content (messages, photos, home facts) | Not stored by HomedIn's server | Passed through only |
 | AI request content at Anthropic | Anthropic | Deleted within 30 days (longer only if flagged or required by law) |
 | Notes you write with a thumbs-down or a concern | HomedIn's server | 90 days |
