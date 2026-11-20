@@ -156,6 +156,6 @@ If we change this policy, we'll update the effective date above and post the new
 ## 10. Contact us
 
 Questions about privacy? Contact **Persue Apps LLC**:  
-Email: [support@homedin.app](mailto:support@homedin.app) <!-- TODO(Noah): PLACEHOLDER. The support email is still open (plan open question 2). Replace with your real address, here, in privacy.html (regenerate) and in support.html. -->  
+Email: [persueapps@gmail.com](mailto:persueapps@gmail.com)  
 Support page: [HomedIn Support](support.html)
 <!-- TODO(Noah): add a mailing address for the LLC if you want one listed. -->

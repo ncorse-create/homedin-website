@@ -22,7 +22,7 @@ Static HTML, CSS and vanilla JS. No build step and no third-party scripts. Plus 
 Search the HTML for `data-placeholder` and `TODO(Noah)`.
 
 - **Pricing** (`index.html`, `#pricing`). No prices are published on purpose because pricing isn't final. The current proposal is kept in an HTML comment above the section.
-- **Support email** `support@homedin.app` is a placeholder (in `support.html`, `privacy.html`, `realtors.html` and `PRIVACY-POLICY.md`). The domain isn't registered yet.
+- **Support email** is `persueapps@gmail.com`, matching the app's `HelpCopy.supportAddress`. Change it in `support.html`, `privacy.html`, `realtors.html` and `PRIVACY-POLICY.md` if you move to a HomedIn domain address.
 - **Domain.** Canonical and Open Graph URLs point to `https://ncorse-create.github.io/homedin-website/`. If you add a custom domain, update those `<meta>`/`<link rel="canonical">` tags and add a `CNAME` file.
 - **"Coming in HomedIn 2.0"** chips on the AI sections. Remove them once 2.0 is live.
 - **Realtor program** (gift codes, co-branding, early-access list) is planned, not built yet.
