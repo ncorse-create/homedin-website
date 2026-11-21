@@ -61,15 +61,31 @@ HomedIn AI lets you ask questions about your home, get photo cost estimates and 
 
 ### What's sent to Anthropic
 
-When you use an AI feature, HomedIn sends only what that request needs:
+When you use an AI feature, HomedIn sends only the following.
 
-- **the messages you write**;
-- **photos you choose to send**, after you review them, with **location and camera metadata removed**;
-- **facts about your home and its systems, your maintenance history and totals**, for the categories you leave switched on. You choose these under **Choose what's shared**: systems and ages, model numbers, maintenance history and costs;
-- **the brand and model** from a label you scan;
-- your **approximate area: the first three digits of your ZIP code and your state**, so price estimates fit your region.
+**Always sent with every AI request**, so answers fit your home and your area:
 
-**Never sent:** your name, an email address, your street address, your full ZIP code, your precise location, serial numbers, your notes or receipt images.
+- **Approximate area**: the first three digits of your ZIP code and your state
+- **Home age**: the year it was built
+- **Typical frost dates** for your area
+- **Local hazards** for your area
+- **Open tasks**: upcoming and overdue work
+- **Home details**: exterior, foundation and roof type
+
+**Sent if you leave it on.** Under **Choose what's shared** you can switch each of these on or off:
+
+- **Systems and ages**
+- **Model numbers**
+- **Maintenance history**
+- **Costs**
+
+**Sent only when you use them:**
+
+- **The messages you write**
+- **Photos you choose to send**, after you review them, with location and camera metadata removed
+- **Brand and model** from a label you scan
+
+**Never sent:** your name, an email address, your street address, your full ZIP code, your precise location, your home's floor area, serial numbers, your notes or receipt images.
 
 When you look up an appliance from its label, Anthropic runs a **web search** using the brand and model text as the search query.
 
