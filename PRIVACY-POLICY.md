@@ -1,6 +1,6 @@
 # HomedIn Privacy Policy
 
-**Effective date: November 20, 2026**
+**Effective date: November 21, 2026**
 
 <!-- NOT LEGAL ADVICE. Drafted from the app's source facts: HOMEDIN-RELAUNCH-CHECKLIST.md, AI-FEATURE-PLAN.md (commit 0da64fd, section 13.6 "What the privacy policy must say") and PrivacyInfo.xcprivacy. Have it reviewed by a qualified attorney before publishing, and keep it identical in substance to the in-app consent text, the App Privacy answers and the privacy manifest. -->
 
@@ -12,7 +12,7 @@ The short version: HomedIn was built to know a lot about your home and very litt
 
 HomedIn is published by Persue Apps LLC, which is responsible for the app and this website. You can reach us using the details in [Contact us](#10-contact-us).
 
-This policy covers the HomedIn app (including its widgets) and the HomedIn website. It doesn't cover Apple, Anthropic or Cloudflare, whose services the app relies on. Their own privacy policies apply to them, and we link to them below.
+This policy covers the HomedIn app (including its widgets) and the HomedIn website. It doesn't cover Apple, Anthropic, Cloudflare or RentCast, whose services the app relies on. Their own privacy policies apply to them, and we link to them below.
 
 ## 2. What HomedIn keeps
 
@@ -51,6 +51,10 @@ HomedIn asks for the **Camera** and **Photos** only when you choose to take or a
 
 To show a local forecast, HomedIn sends your home's **ZIP code** to **Apple Weather** (WeatherKit) about once a day. Only the **ZIP centroid** (the geographic center of that ZIP code) is used — not your street address, precise location or GPS. HomedIn doesn't ask for location permission. Forecast data comes from Apple under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) and Apple Weather terms.
 
+### Address auto-fill
+
+**Sent if you leave it on.** For address auto-fill, your address goes to our server and **RentCast** to look up public county records. It isn't stored.
+
 ## 3. HomedIn AI
 
 HomedIn AI lets you ask questions about your home, get photo cost estimates and remodel ideas, check a quote, identify an appliance from its label, find the right kind of pro, and receive AI home scans and seasonal and yearly reports. It's powered by **Claude**, an AI model made by **Anthropic**.
@@ -85,7 +89,7 @@ When you use an AI feature, HomedIn sends only the following.
 - **Photos you choose to send**, after you review them, with location and camera metadata removed
 - **Brand and model** from a label you scan
 
-**Never sent:** your name, an email address, your street address, your full ZIP code, your precise location, your home's floor area, serial numbers, your notes or receipt images.
+**Never sent to Anthropic:** your name, an email address, your street address, your full ZIP code, your precise location, your home's floor area, serial numbers, your notes or receipt images.
 
 When you look up an appliance from its label, Anthropic runs a **web search** using the brand and model text as the search query.
 
@@ -125,6 +129,7 @@ HomedIn is for US homeowners, and HomedIn AI is available in the United States a
 - **Apple** provides iCloud sync, App Store purchases, Apple Maps for contractor search, and **Apple Weather** (WeatherKit) for forecasts from your home's ZIP code, as described in section 2. Purchases are processed by Apple; we never see your payment card or billing details. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 - **Anthropic** provides the Claude AI model used by HomedIn AI, as described in section 3.
 - **Cloudflare** hosts HomedIn's server and processes requests in transit to deliver them and protect the service. See [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+- **RentCast** looks up public county records for address auto-fill, as described in section 2. See [RentCast's Privacy Policy](https://www.rentcast.io/privacy).
 
 ### This website
 
@@ -139,6 +144,7 @@ If you email us, including through the support page, which opens your own email 
 | Home data, tasks, notes, receipts, documents | Your device and your private iCloud | Until you delete it |
 | Photos, AI chats and saved AI reports | Your device only | Until you delete them |
 | Weather forecasts | Fetched from Apple Weather; cached on your device | Refreshed about once a day |
+| Address auto-fill lookups | Passed through HomedIn's server to RentCast | Not stored |
 | AI request content (messages, photos, home facts) | Not stored by HomedIn's server | Passed through only |
 | AI request content at Anthropic | Anthropic | Deleted within 30 days (longer only if flagged or required by law) |
 | Notes you write with a thumbs-down or a concern | HomedIn's server | 90 days |
