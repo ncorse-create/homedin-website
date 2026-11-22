@@ -6,7 +6,7 @@
 
 HomedIn is a home maintenance app for iPhone and iPad, made by **Persue Apps LLC** ("we", "us"). This policy explains what happens to your information when you use the HomedIn app and this website.
 
-The short version: HomedIn was built to know a lot about your home and very little about you. There's no account and no analytics. Your home data lives on your devices and in your own private iCloud, which we can't read. HomedIn AI is optional, asks your permission first, and our server keeps none of your content.
+The short version: HomedIn was built to know a lot about your home and very little about you. There's no account, no ads and no tracking, and nothing is linked to you. Your home data lives on your devices and in your own private iCloud, which we can't read. HomedIn AI is optional, asks your permission first, and our server keeps none of your content. The only analytics we collect are anonymous thumbs-down and concern counts, with no message content.
 
 ## 1. Who we are
 
@@ -16,11 +16,27 @@ This policy covers the HomedIn app (including its widgets) and the HomedIn websi
 
 ## 2. What HomedIn keeps
 
-### No account, no analytics, no tracking
+### No account, no tracking
 
 - HomedIn has **no accounts**. We don't ask for your name, email address or phone number to use the app.
-- HomedIn has **no analytics** and contains **no third-party SDKs**. It uses Apple frameworks only.
-- There's no advertising. We don't track you across other companies' apps or websites, and we don't sell or share your personal information.
+- HomedIn contains **no third-party SDKs**. It uses Apple frameworks only. There's no advertising, and we don't track you across other companies' apps or websites, or sell or share your personal information.
+- We don't use third-party analytics. The only analytics we collect are **anonymous counts** of thumbs-downs and reported concerns, with no message content, so we can see what isn't working. They aren't linked to you and aren't used for tracking.
+
+### App Store privacy label at a glance
+
+Nothing in this list is linked to you, and none of it is used for tracking. These are the same answers we give Apple on the App Store.
+
+| Data type | Purpose | What it is |
+|---|---|---|
+| Photos or Videos | App Functionality | Photos you choose to send to Ask AI, with location and camera metadata removed |
+| Other User Content | App Functionality | The messages you write, home facts sent with a question, and any note you add to a thumbs-down or a concern |
+| Coarse Location | App Functionality | The first three digits of your ZIP code and your state, sent with AI questions so answers fit your area |
+| Physical Address | App Functionality | Your street address, only if you use **Fill in from public records**, sent to our server and RentCast to look up public county records. It isn't stored. |
+| Device ID | App Functionality | An anonymous, hashed device key, so monthly AI allowances work and abuse is limited |
+| Purchase History | App Functionality | A hash of the App Store transaction ID, so your HomedIn+ allowance follows your purchase across devices |
+| Product Interaction | Analytics | Counts of thumbs-downs and reported concerns, with no content |
+
+**Not collected:** your name, email, phone, precise location, contacts, health or financial information, browsing or search history, diagnostics, and other identifiers.
 
 ### Your home data stays on your device and in your iCloud
 
@@ -36,9 +52,9 @@ HomedIn AI uses a small HomedIn server (a "proxy") to reach the AI provider. **T
 
 With no name or email attached, the server does keep:
 
-- an **anonymous device key** (stored only as a hash) and **AI credit counters**, so monthly allowances work;
-- for subscribers, a **hash of the App Store transaction ID**, so your allowance follows your purchase across devices;
-- **counts** of thumbs-down ratings and reported concerns;
+- an **anonymous device key** (a hashed Device ID, using Apple's App Attest) and **AI credit counters**, so monthly allowances work and abuse is limited;
+- for subscribers, a **hash of the App Store transaction ID**, so your HomedIn+ allowance follows your purchase across devices;
+- **counts** of thumbs-down ratings and reported concerns, with no message content — the only analytics we collect, and they aren't linked to you or used for tracking;
 - **your own note**, only if you choose to write one when you give a thumbs-down or report a concern.
 
 Notes are deleted after **90 days**. Counters for a device that hasn't used HomedIn AI are deleted after **13 months**.
@@ -53,7 +69,7 @@ To show a local forecast, HomedIn sends your home's **ZIP code** to **Apple Weat
 
 ### Address auto-fill
 
-**Sent if you leave it on.** For address auto-fill, your address goes to our server and **RentCast** to look up public county records. It isn't stored.
+**Sent if you leave it on.** For address auto-fill (**Fill in from public records**), your address goes to our server and **RentCast** to look up public county records. It isn't stored.
 
 ## 3. HomedIn AI
 
